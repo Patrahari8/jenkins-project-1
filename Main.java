@@ -6,5 +6,7 @@ class Main{
         System.out.println("The Time Is "+ new Date());
         System.out.println("Added New File");
         System.out.println("Using Jenkins to Build");
+        Student student = new Student();
+        student.sayHello();
     }
 }
